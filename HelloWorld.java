@@ -1,7 +1,10 @@
 public class HelloWorld{
     public static void main(String[] args){
-        System.out.println("I say \"Hello World!\"");
-        System.out.println("I also say \"How are you?\"");
-        System.out.println("Bye World!");
+        String message = "Hello World!";
+        String secondChar = giveSecondChar(message);
+        System.out.println(secondChar);
+    }
+    public static String giveSecondChar(String msg){
+        return msg.substring(1,2);
     }
 }
