@@ -1,10 +1,10 @@
 public class Date{
     public static void main(String[] args){
+        String dayOfTheWeek = "Saturday";
         int day = 30;
-        int month = 8;
+        String month = "August";
         int year = 2025;
-        // Date format: MM/DD/YYYY
-        String date = month + "/" + day + "/" + year;
-        System.out.println("\n" + date);
+        System.out.println("\nAmerican format: " + dayOfTheWeek + ", " + month + " " + day + ", " + year);
+        System.out.println("European format: " + dayOfTheWeek + " " + day + " " + month + " " + year);
     }
 }
